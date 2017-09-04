@@ -1,3 +1,24 @@
+table {
+	width: 100%;
+	border-collapse: collapse;
+}
+
+th {
+	background-color: rgba(0,0,0,0.3);
+}
+
+table, th, td {
+	padding: 5px;
+	border: 1px solid rgba(0,0,0,0.3);
+	border-radius: 0.4em;
+	-moz-border-radius: 0.4em;
+	-webkit-border-radius: 0.4em;
+}
+
+tr:nth-child(even) {
+	background-color: rgba(0,0,0,0.3);
+}
+
 html { font-size: 62.5%; }
 html, body { height: 100%; }
 

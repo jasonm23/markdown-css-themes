@@ -73,7 +73,12 @@ dd { margin: 0 0 0 2em; }
 
 img { border: 0; -ms-interpolation-mode: bicubic; vertical-align: middle; }
 
-table { border-collapse: collapse; border-spacing: 0; }
+table {
+border-collapse: collapse;
+border-spacing: 0;
+width: 100%;
+}
+th { border-bottom: 1px solid black; }
 td { vertical-align: top; }
 
 @media only screen and (min-width: 480px) {

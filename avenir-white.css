@@ -1,16 +1,3 @@
-table {
-	border-collapse: collapse;
-	width: 100%;
-}
-
-table, th, td {
-  border: 1px solid #EAEAEA;
-	
-	border-radius: 3px;
-  padding: 5px;
-}
-
-tr:nth-child(even) {background-color: #F8F8F8}
 
 body {
 	font-family: "Avenir Next", Helvetica, Arial, sans-serif;
@@ -62,6 +49,26 @@ hr {
 
 p, blockquote, ul, ol, dl, li, table, pre {
 	margin: 15px 0;
+}
+
+img {
+	max-width: 100%;
+}
+
+table {
+	border-collapse: collapse;
+	width: 100%;
+}
+
+table, th, td {
+	border: 1px solid #EAEAEA;
+	
+	border-radius: 3px;
+	padding: 5px;
+}
+
+tr:nth-child(even) {
+  background-color: #F8F8F8;
 }
 
 a, a:visited {

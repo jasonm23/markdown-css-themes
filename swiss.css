@@ -28,18 +28,24 @@
  * @valid        true
  */
 
+img {
+	max-width: 100%;
+}
+
 table {
-  border-collapse: collapse;
-  width: 100%;
+	border-collapse: collapse;
+	width: 100%;
 }
 
 table, th, td {
-  border: 1px solid #EAEAEA;
-  border-radius: 3px;
-  padding: 5px;
+	border: 1px solid #EAEAEA;
+	border-radius: 3px;
+	padding: 5px;
 }
 
-tr:nth-child(even) {background-color: #F8F8F8}
+tr:nth-child(even) {
+	background-color: #F8F8F8;
+}
 
 body {
     font-family: Helvetica, Arial, Freesans, clean, sans-serif;
